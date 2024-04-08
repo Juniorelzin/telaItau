@@ -1,0 +1,224 @@
+    /* *{
+        border: 1px solid red;
+    } */
+                    
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Hind Guntur", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+ 
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: #FF6200; 
+    height: 20%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#headerEsquerda{
+    width: 20%; 
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#headerMeio{
+    width: 50%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.opcoesHeader{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    color:#fff;
+    margin-top: 15px;
+}
+
+
+#headerDireita{
+    width: 30%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#divLogin{
+    width: 70%; 
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 15px;
+}
+
+#divAgencia{
+    width: 40%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#divConta{
+    width: 40%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#inputAgencia,
+textarea{
+    width: 90%; 
+    height: 90%;
+    border-radius: 15px;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 12px 16px 14px
+   
+    
+}
+
+
+#inputConta,
+textarea{
+    width: 90%; 
+    height: 90%;
+    border-radius: 15px;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 12px 16px 14px
+}
+
+::-webkit-input-placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+    
+}
+
+#divSeta{
+    width: 20%; 
+    height: 100%;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#BotaoAcessarConta{
+    width: 100%; 
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#seta{
+    width: 6px;
+}
+
+main{
+    background:linear-gradient(#FF6200, #FF9452);
+    height: 80%;
+    display: flex;
+}
+
+#mainEsquerda{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    
+}
+
+#titulo{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 65px;
+}
+
+#textoUm{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+#textoDois{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+#BotaoAbraSuaConta{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    color: #FF6200;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+
+#mainDireita{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: center; 
+}
+
+#fotoMulher{
+    width: 100%;
+    height: 100%;
+   
+    
+}
